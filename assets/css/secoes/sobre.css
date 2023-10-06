@@ -1,0 +1,40 @@
+@import url(/assets/css/base.css);
+@import url(/assets/css/desktop.css);
+
+.sobre__banner{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 110%;
+    mix-blend-mode: multiply;
+}
+.cabecalho__chamada{
+    padding: 64px 121.5px;
+}
+
+.img-first{
+    background-image: url();
+    width: 200em;
+}
+
+.img-second{
+    background-image: url();
+    order: 2;
+    width: 160em;
+}
+
+.img-third{
+    background-image: url();
+    width: 180em;
+}
+
+.chamada__texto{
+    text-align: left;
+}
+
+.text-alt{
+    text-align: left;
+}
+strong.destaque{
+
+    color: rgb(16, 90, 16);
+}
