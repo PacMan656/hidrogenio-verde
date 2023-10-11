@@ -3,7 +3,7 @@
 # **Projeto Front-end**
 
 <div class="subtitulo" align="center">
-    Este é o repositório do projeto <b>H2Verde</b> projeto de Front-end-utfpr.
+    Este é o repositório do projeto <b>H2Verde</b> projeto de Front-end-UTFPR.
 </div>
 
  
@@ -15,7 +15,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **H2Verde**
 | :label: Tecnologias | HTML, CSS
-| :rocket: URL         | 
+| :rocket: URL         | https://h2verde-ff89e.web.app/
 | :fire: Projeto     | Front-end-UTFPR
 
 ----------------------------------------------
@@ -27,9 +27,9 @@ A ideia é colocar em prática o conhecimento adquirido na Disciplica de Front-e
 
 ## **Detalhes das Semanas**
 `SEMANA 01`
-> Desenvolvimento do site, com páginas, principais e subpáginas, com HTML e CSS, com foco em responsividade para telas (mobilee desktop), HTML limpo para refatoração correta, foco no método B.E.M, a hierarquia de páginas é:<br>
+> Desenvolvimento do site, com páginas, principais e subpáginas, com HTML e CSS, com foco em responsividade para telas (mobile e desktop), HTML limpo para refatoração correta, foco no método B.E.M Css, a hierarquia de páginas é:<br>
   - Página Principal (que vai conter todos os direcionamentos necessários);
-  - A Sobre(pagina que explica o contexto do H2v);
+  - A Sobre(pagina que explica sobre o hidrogênio verde);
   - Produção do H2V no brasil;
   - Página de Informações Gerais;
   - Formulário .
