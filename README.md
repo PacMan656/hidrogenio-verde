@@ -16,7 +16,7 @@
 | :sparkles: Nome        | **H2Verde**
 | :label: Tecnologias | HTML, CSS
 | :rocket: URL         | https://h2verde-ff89e.web.app/
-| :fire: Projeto     | Front-end-UTFPR
+| :fire: Projeto     | Front-end-UTdFPR
 
 ----------------------------------------------
 
