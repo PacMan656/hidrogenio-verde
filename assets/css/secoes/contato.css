@@ -78,12 +78,12 @@ select {
 }
 
 
-.botao__compra{
+.botao__formulario{
     font-family: var(--textos-gerais);
     margin: 0 0 48px 0;
     font-size: 22px;
 }
 
-.botao__compra a:hover{
+.botao__formulario a:hover{
     background-color: var(--azul-hoover-verao);
 }
