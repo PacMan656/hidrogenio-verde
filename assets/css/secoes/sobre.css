@@ -11,19 +11,20 @@
     padding: 64px 121.5px;
 }
 
-.img-first{
-    background-image: url();
-    width: 200em;
+.cabecalho__chamada-video {
+    width: 100%; 
+    height: auto; 
 }
 
+
 .img-second{
-    background-image: url();
+    background-image: url(/img/info-producao-h2verde-second.png);
     order: 2;
     width: 160em;
 }
 
 .img-third{
-    background-image: url();
+    background-image: url(/img/img-third-sobre.png);
     width: 180em;
 }
 
