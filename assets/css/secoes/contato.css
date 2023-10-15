@@ -80,10 +80,17 @@ select {
 
 .botao__formulario{
     font-family: var(--textos-gerais);
-    margin: 0 0 48px 0;
+    margin:  28px;
     font-size: 22px;
+    background-color: green;
+    width: 150px;
+    height: 40px;
+    outline: 0;
+    border: none;
+    border-radius: 3px;
 }
 
-.botao__formulario a:hover{
+button:hover{
     background-color: var(--azul-hoover-verao);
+    background-color: greenyellow;
 }

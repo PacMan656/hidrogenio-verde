@@ -1,136 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>H2Verde</title>
-    <link
-      rel="imagem icon"
-      href="img/icons_logos/H2Verde_150x150.png"
-      type="image/x-icon"
-    />
 
-    <!-- STAR Style Sheets -->
-    <link rel="stylesheet" href="/assets/css/reset.css" />
-    <link rel="stylesheet" href="/assets/css/base.css" />
-    <link rel="stylesheet" href="/assets/css/desktop.css" />
-    <link rel="stylesheet" href="/assets/css/mobile.css" />
-    <script
-      src="./assets/css/fontawesome-free-6.4.2-web/js/all.js"
-      data-auto-a11y="true"
-    ></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>H2Verde</title>
+  <link rel="imagem icon" href="img/icons_logos/H2Verde_150x150.png" type="image/x-icon" />
 
-    <!-- Star fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap"
-      rel="stylesheet"
-    />
+  <!-- STAR Style Sheets -->
+  <link rel="stylesheet" href="/assets/css/reset.css" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/desktop.css" />
+  <link rel="stylesheet" href="/assets/css/mobile.css" />
+  <script src="../assets/css/fontawesome-free-6.4.2-web/js/all.js" data-auto-a11y="true"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- STAR Cabeçalho -->
-    <header class="cabecalho__container">
-      <section class="cabecalho__principal">
-        <a href="../index.html">
-          <img
-            src="../img/logo.png"
-            alt="logo da H2Verde"
-            class="logo__h2verde"
-          />
-        </a>
-        <nav class="cabecalho__menu">
-          <ul class="menu__lista">
-            <li class="menu__itens">
-              <a href="/contens/sobre.html" target="_top">Sobre</a>
-            </li>
-            <li class="menu__itens">
-              <a href="/contens/setores.html" target="_top">Produção Brasil</a>
-            </li>
-            <li class="menu__itens">
-              <a href="/contens/contato.html" target="_top">Contato</a>
-            </li>
-            <li class="menu__itens">
-              <a href="/contens/informacoes.html" target="_top">Informações</a>
-            </li>
-          </ul>
-        </nav>
-      </section>
-      <div class="cabecalho__banner ingressos__banner">
-        <h1 class="cabecalho__titulo">Formulario</h1>
+  <!-- Star fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- STAR Cabeçalho -->
+  <header class="cabecalho__container">
+    <section class="cabecalho__principal">
+      <a href="../index.html">
+        <img src="../img/logo.png" alt="logo da H2Verde" class="logo__h2verde" />
+      </a>
+      <nav class="cabecalho__menu">
+        <ul class="menu__lista">
+          <li class="menu__itens">
+            <a href="/contens/sobre.html" target="_top">Sobre</a>
+          </li>
+          <li class="menu__itens">
+            <a href="/contens/setores.html" target="_top">Produção Brasil</a>
+          </li>
+          <li class="menu__itens">
+            <a href="/contens/contato.html" target="_top">Contato</a>
+          </li>
+          <li class="menu__itens">
+            <a href="/contens/informacoes.html" target="_top">Informações</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <div class="cabecalho__banner ingressos__banner">
+      <h1 class="cabecalho__titulo">Formulario</h1>
+    </div>
+  </header>
+  <main class="formulario">
+    <h2 class="formulario__titulo">Preencha o Formulário à Seguir:</h2>
+
+    <form class="formulario__container">
+      <label class="text__label nome__label" for="nome-completo">Nome Completo:</label>
+      <input type="text" class="input-form nome__input" id="nome-completo" />
+
+      <label class="text__label email__label" for="email">Email:</label>
+      <input type="email" class="input-form email__input" id="email" placeholder="example@email.com" />
+
+      <div class="grupo__flex">
+        <label class="text__label select__label" for="select">Escolha sua Opção Favorita</label>
+        <select class="input-form select__input" id="select">
+          <option selected>Escolha uma opção</option>
+          <option value="1">Sobre Hidrogênio Verde</option>
+          <option value="2">Produção no Brasil</option>
+          <option value="3">Informações</option>
+          <option value="4">Outros</option>
+        </select>
+
+        <label class="text__label nascimento__label" for="nascimento">Data de Nascimento:</label>
+        <input type="date" class="input-form nascimento__input" id="nascimento" />
       </div>
-    </header>
-    <main class="formulario">
-      <h2 class="formulario__titulo">Preencha o Formulário à Seguir:</h2>
+    </form>
 
-      <form class="formulario__container">
-        <label class="text__label nome__label" for="nome-completo"
-          >Nome Completo:</label
-        >
-        <input type="text" class="input-form nome__input" id="nome-completo" />
+    <button  class="botao__formulario" onclick="window.location.href='../contens/sobre.html'">Avançar! <i class="fa-solid fa-arrow-right"></i></button>
+  </main>
+  <!-- Star footer -->
+  <footer class="footer">
+    <p class="rodape__redes-sociais">Acesse nossas redes:
+        <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp icon-rede"></i></a>
+        <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch icon-rede"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram icon-rede"></i></a>
+        <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter icon-rede"></i></a>
+    </p>
+</footer>
+</body>
 
-        <label class="text__label email__label" for="email">Email:</label>
-        <input
-          type="email"
-          class="input-form email__input"
-          id="email"
-          placeholder="example@email.com"
-        />
-
-        <div class="grupo__flex">
-          <label class="text__label select__label" for="select"
-            >Escolha sua Opção Favorita</label
-          >
-          <select class="input-form select__input" id="select">
-            <option selected>Escolha uma opção</option>
-            <option value="1">Sobre Hidrogênio Verde</option>
-            <option value="2">Produção no Brasil</option>
-            <option value="3">Informações</option>
-            <option value="4">Outros</option>
-          </select>
-
-          <label class="text__label nascimento__label" for="nascimento"
-            >Data de Nascimento:</label
-          >
-          <input
-            type="date"
-            class="input-form nascimento__input"
-            id="nascimento"
-          />
-        </div>
-      </form>
-
-      <p class="botao__formulario">
-        <a href="../contens/contato.html"
-          >Avançar! <i class="fa-solid fa-arrow-right"></i
-        ></a>
-      </p>
-    </main>
-    <!-- Star footer -->
-    <footer class="footer">
-      <p class="rodape__redes-sociais">
-        Acesse nossas redes:
-        <a href="https://web.whatsapp.com/" target="_blank"
-          ><i class="fa-brands fa-whatsapp"></i
-        ></a>
-        <a href="https://www.twitch.tv/" target="_blank"
-          ><i class="fa-brands fa-twitch"></i
-        ></a>
-        <a href="https://www.instagram.com/" target="_blank"
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
-        <a href="https://twitter.com/i/flow/login" target="_blank"
-          ><i class="fa-brands fa-twitter"></i
-        ></a>
-      </p>
-    </footer>
-  </body>
 </html>

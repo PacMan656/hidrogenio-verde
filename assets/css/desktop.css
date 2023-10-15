@@ -163,8 +163,21 @@ a{
 
 /* Footer */
 .footer {
-    padding: 20px;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 20px; /* Espaçamento interno do rodapé */
+    bottom: 0;
+    width: 100%;
     text-align: center;
-    background: #ddd;
-}
+    height: 140px;
+  }
 
+  .rodape__redes-sociais{
+    color: #fff;
+    height: 50px;
+  }
+  .icon-rede{
+    color: #fff;
+    font-size: 30px;
+    padding: 5px;
+  }
