@@ -61,6 +61,7 @@
     background-color:#2E7BA2;
 }
 
+
 /* text */
 .cabecalho__chamada{
     padding: 64px 121.5px;
@@ -78,7 +79,7 @@ strong.destaque{
 
 
 .image-first{
-    background-image: url();
+    background-image: url(/video/hidrogênio\ verde.mp4);
 }
 
 .image-second{
@@ -87,13 +88,21 @@ strong.destaque{
     width: 80em;
 }
 
-.image-first{
+.image-fourth{
     background-image: url(/img/porto-suape.jpg);
     border-radius: 16px;
     margin: 0 5.1px;
 }
 
 
-.img-fifth{
+.image-fifth{
     background-image: url(/img/onibus-USP-Foto-Governo-de-Sao-Paulo.jpeg);
+    border-radius: 16px;
+    margin: 0 5.1px;
+}
+
+.image-third{
+    background-image: url(/img/porto-do-acu-750x430.jpeg);
+    border-radius: 16px;
+    margin: 0 5.1px;
 }

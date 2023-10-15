@@ -1,5 +1,6 @@
-@import url(../base.css);
-@import url(../desktop.css);
+
+@import url(/assets/css/base.css);
+@import url(/assets/css/desktop.css);
 
 body{
     color: var(--cinza-fonte);
@@ -56,7 +57,7 @@ body{
     font-size: 32px;
     font-weight: 700;
     background-color: var(--azul-escuro-verao);
-    color: white;
+    color: #8AE792;
     cursor: pointer;
 }
 
